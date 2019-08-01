@@ -4,7 +4,7 @@
 
 The Nasa Photo API starts a local server listening on port 8050. When the endpoint receives a proper request, it will query the data source for all Mars Rover images taken on the date in the request and will download those to a local directory named after the date requested.
 
-Files themselves will be named in the format <DATE>\_<ID>.jpg.
+Files themselves will be named in the format DATE_ID.jpg.
 
 ## Running
 

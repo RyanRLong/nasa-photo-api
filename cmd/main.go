@@ -15,7 +15,7 @@ import (
 // number of images retrieved.
 type Result struct {
 	Successful  bool
-	TotalPhotos int64
+	TotalPhotos int
 }
 
 func apiCall(w http.ResponseWriter, r *http.Request) {
